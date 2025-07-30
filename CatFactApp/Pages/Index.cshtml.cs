@@ -21,6 +21,9 @@ namespace CatFactApp.Pages
 		[BindProperty]
 		public CatFactResponse? CurrentCatFact { get; set; }
 
+		[BindProperty]
+		public int? MaxLength { get; set; }
+
 		public string? ErrorMessage { get; set; }
 		public string? SuccessMessage { get; set; }
 
@@ -33,9 +36,23 @@ namespace CatFactApp.Pages
 		{
 			try
 			{
-				_logger.LogInformation("User requested a cat fact");
+				// Walidacja max_length
+				if (MaxLength.HasValue && MaxLength.Value < 20)
+				{
+					ErrorMessage = "Max length has to be at least 20.";
+					return Page();
+				}
 
-				CurrentCatFact = await _catFactService.GetCatFactAsync();
+				if (MaxLength.HasValue)
+				{
+					_logger.LogInformation("User requested a cat fact with max_length: {MaxLength}", MaxLength.Value);
+				}
+				else
+				{
+					_logger.LogInformation("User requested a cat fact");
+				}
+
+				CurrentCatFact = await _catFactService.GetCatFactAsync(MaxLength);
 
 				if (CurrentCatFact == null)
 				{

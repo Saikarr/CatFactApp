@@ -19,13 +19,22 @@ namespace CatFactApp.Services
 			_logger = logger;
 		}
 
-		public async Task<CatFactResponse?> GetCatFactAsync()
+		public async Task<CatFactResponse?> GetCatFactAsync(int? maxLength = null)
 		{
 			try
 			{
-				_logger.LogInformation("Requesting a cat fact");
+				var url = _catFactApiUrl;
+				if (maxLength.HasValue && maxLength.Value > 0)
+				{
+					url += $"?max_length={maxLength.Value}";
+					_logger.LogInformation("Requesting a cat fact with max_length: {MaxLength}...", maxLength.Value);
+				}
+				else
+				{
+					_logger.LogInformation("Requesting a cat fact");
+				}
 
-				var response = await _httpClient.GetAsync(_catFactApiUrl);
+				var response = await _httpClient.GetAsync(url);
 				response.EnsureSuccessStatusCode();
 
 				var jsonContent = await response.Content.ReadAsStringAsync();

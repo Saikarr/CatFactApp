@@ -4,6 +4,6 @@ namespace CatFactApp.Services
 {
 	public interface ICatFactService
 	{
-		Task<CatFactResponse?> GetCatFactAsync();
+		Task<CatFactResponse?> GetCatFactAsync(int? maxLength = null);
 	}
 }
