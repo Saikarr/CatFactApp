@@ -1,0 +1,22 @@
+[2025-07-30 04:31:18] Fact: Cats make about 100 different sounds. Dogs make only about 10. | Length: 62
+[2025-07-30 04:32:42] Fact: At 4 weeks, it is important to play with kittens so that they do not develope a fear of people. | Length: 95
+[2025-07-30 04:33:26] Fact: The cheetah is the world's fastest land mammal. It can run at speeds of up to 70 miles an hour (113 kilometers an hour). | Length: 120
+[2025-07-30 04:33:35] Fact: The heaviest cat on record is Himmy, a Tabby from Queensland, Australia. He weighed nearly 47 pounds (21 kg). He died at the age of 10. | Length: 135
+[2025-07-30 04:35:59] Fact: Most cats adore sardines. | Length: 25
+[2025-07-30 04:36:02] Fact: Cats come back to full alertness from the sleep state faster than any other creature. | Length: 85
+[2025-07-30 04:40:06] Fact: In Siam, the cat was so revered that one rode in a chariot at the head of a parade celebrating the new king. | Length: 108
+[2025-07-30 04:42:08] Fact: Cat families usually play best in even numbers. Cats and kittens should be acquired in pairs whenever possible. | Length: 111
+[2025-07-30 04:42:40] Fact: The most traveled cat is Hamlet, who escaped from his carrier while on a flight. He hid for seven weeks behind a panel on the airplane. By the time he was discovered, he had traveled nearly 373,000 miles (600,000 km). | Length: 217
+[2025-07-30 05:06:37] Fact: If they have ample water, cats can tolerate temperatures up to 133 °F. | Length: 70
+[2025-07-30 05:06:42] Fact: Neutering a cat extends its life span by two or three years. | Length: 60
+[2025-07-30 05:06:45] Fact: Female felines are \superfecund | Length: 31
+[2025-07-30 05:06:51] Fact: Kittens who are taken along on short, trouble-free car trips to town tend to make good passengers when they get older. They get used to the sounds and motions of traveling and make less connection between the car and the visits to the vet. | Length: 239
+[2025-07-30 05:06:53] Fact: Like humans, cats tend to favor one paw over another | Length: 52
+[2025-07-30 05:08:06] Fact: Like humans, cats tend to favor one paw over another | Length: 52
+[2025-07-30 05:08:08] Fact: Abraham Lincoln loved cats. He had four of them while he lived in the White House. | Length: 82
+[2025-07-30 05:11:56] Fact: A queen (female cat) can begin mating when she is between 5 and 9 months old. | Length: 77
+[2025-07-30 05:11:59] Fact: On average, a cat will sleep for 16 hours a day. | Length: 48
+[2025-07-30 05:12:08] Fact: Cats' eyes shine in the dark because of the tapetum, a reflective layer in the eye, which acts like a mirror. | Length: 109
+[2025-07-30 05:21:38] Fact: There is a species of cat smaller than the average housecat. It is native to Africa and it is the Black-footed cat (Felis nigripes). Its top weight is 5.5 pounds. | Length: 162
+[2025-07-30 05:21:40] Fact: In relation to their body size, cats have the largest eyes of any mammal. | Length: 73
+[2025-07-30 05:21:43] Fact: A cat’s nose pad is ridged with a unique pattern, just like the fingerprint of a human. | Length: 87
