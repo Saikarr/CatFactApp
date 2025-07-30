@@ -36,7 +36,7 @@ namespace CatFactApp.Pages
 		{
 			try
 			{
-				// Walidacja max_length
+				
 				if (MaxLength.HasValue && MaxLength.Value < 20)
 				{
 					ErrorMessage = "Max length has to be at least 20.";
@@ -62,7 +62,7 @@ namespace CatFactApp.Pages
 
 				await _fileService.SaveCatFactToFileAsync(CurrentCatFact);
 
-				SuccessMessage = "Cat fact received and saved";
+				SuccessMessage = "Cat fact received and saved successfully";
 				_logger.LogInformation("Cat fact received and saved successfully");
 
 				return Page();

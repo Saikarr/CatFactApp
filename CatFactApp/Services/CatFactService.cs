@@ -27,7 +27,7 @@ namespace CatFactApp.Services
 				if (maxLength.HasValue && maxLength.Value > 0)
 				{
 					url += $"?max_length={maxLength.Value}";
-					_logger.LogInformation("Requesting a cat fact with max_length: {MaxLength}...", maxLength.Value);
+					_logger.LogInformation("Requesting a cat fact with max_length: {MaxLength}", maxLength.Value);
 				}
 				else
 				{

@@ -16,9 +16,9 @@ namespace CatFactApp.Services
 		{
 			try
 			{
-				var dataToSave = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] Fact: {catFact.Fact} | Length: {catFact.Length}";
+				var textToSave = $"[{DateTime.Now:dd-MM-yyyy HH:mm:ss}] Fact: {catFact.Fact} | Length: {catFact.Length}";
 
-				await File.AppendAllTextAsync(_fileName, dataToSave + Environment.NewLine);
+				await File.AppendAllTextAsync(_fileName, textToSave + Environment.NewLine);
 
 				_logger.LogInformation("Cat fact successfully saved");
 			}
